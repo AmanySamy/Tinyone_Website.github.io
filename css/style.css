@@ -1,0 +1,198 @@
+/*------------First Section---------------*/
+
+#wrapper {
+	width: 1255px;
+}
+#first{
+	background-color: #FCDB00;
+	padding: 50px 110px 110px;
+	height: 600px;
+}
+#logo_img{
+	float:left;
+}
+nav ul li,
+nav ul li a{
+	display: inline-block;
+	list-style: none;
+	text-decoration:none;
+	font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+	padding: 6px 10px;
+	float: right;
+	font-family: Arial Rounded MT Bold;
+
+
+}
+#under_nav{
+	margin-top: 141px;
+}
+.content{
+	width :50%;
+	float :left;
+	padding: 30px;
+}
+.content h1,
+.content2 h1
+
+{
+	font-family: Arial Rounded MT Bold;
+	font-size: 30px;
+	
+}
+.content p,
+.content2 p{
+	font-family: Arial Unicode MS;
+    font-size: 23px;
+}
+
+.fa{
+ 
+	padding-right: 30px;
+}
+.image{
+	float:right;
+}
+
+
+/* -------------- Feature Section---------------*/
+#feature{
+	background-color: white;
+	padding: 50px 110px 110px;
+	height: 600px;
+}
+.item{
+	display : inline-block;
+	width : 30%;
+	padding :15px;
+	
+}
+#item1::before{
+	content : "\f10b";
+	font-size: 124px;
+	font-family: FontAwesome;
+	float: left;
+	padding-right: 35px;
+	height: 130px;
+	padding-top: 15px;
+}
+#item2::before{
+	content : "\f094";
+	font-size: 55px;
+	font-family: FontAwesome;
+	float: left;
+	padding-right: 35px;
+	height: 130px;
+	padding-top: 15px;
+}
+#item3::before{
+	content : "\f114";
+	font-size: 55px;
+	font-family: FontAwesome;
+	float: left;
+	padding-right: 35px;
+	height: 130px;
+	padding-top: 15px;
+}
+#item4::before{
+	content : "\f121";
+	font-size: 55px;
+	font-family: FontAwesome;
+	float: left;
+	padding-right: 35px;
+	height: 130px;
+	padding-top: 15px;
+}
+#item5::before{
+	content : "\f003";
+	font-size: 55px;
+	font-family: FontAwesome;
+	float: left;
+	padding-right: 35px;
+	height: 130px;
+	padding-top: 15px;
+}
+#item6::before{
+	content : "\f097";
+	font-size: 55px;
+	font-family: FontAwesome;
+	float: left;
+	padding-right: 35px;
+	height: 130px;
+	padding-top: 15px;
+}
+
+/*----------- Support Section --------------------*/
+#support{
+	background-color: black;
+	padding: 50px 110px 110px;
+	height: 600px;
+	
+}
+
+
+.content3 h1
+
+{
+	font-family: Arial Rounded MT Bold;
+	font-size: 30px;
+	color : #FCDB00;
+	
+}
+
+.content3 p{
+	font-family: Arial Unicode MS;
+    font-size: 23px;
+	color : white;
+}
+
+#email{
+	width: 55%;
+    height: 40px;
+    margin-top: 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-indent: 30px;
+    font-size: 16px;
+	margin-right: 22px;
+}
+
+	
+
+#submit{
+	background-color : #FCDB00;
+	color :black;
+	height: 40px;
+	width: 85px;
+	font-weight: bold;
+
+}
+.icons{
+	margin: 50px;
+}
+.icons ul li ,
+.icons ul li a{
+	background-color: #FCDB00;
+	font-size: 30px;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 1px 30px;
+	width: 0px;
+
+}
+
+/*----------- Footer --------------------*/
+.footer_items{
+	width : 16%;
+	display : inline-block;
+	height: 120px;
+	margin-top: 130px;
+	margin-right: 38px;
+
+	
+
+}
+.footer_items ul li a{
+	color : white;
+}
